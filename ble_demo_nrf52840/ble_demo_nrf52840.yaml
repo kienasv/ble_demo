@@ -1,0 +1,22 @@
+identifier: ble_demo_nrf52840
+name: BLE-DEMO-NRF52840
+type: mcu
+arch: arm
+ram: 256
+flash: 1024
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - ble
+  - counter
+  - gpio
+  - i2c
+  - ieee802154
+  - pwm
+  - spi
+  - usb_cdc
+  - usb_device
+  - watchdog
+  - netif:openthread
